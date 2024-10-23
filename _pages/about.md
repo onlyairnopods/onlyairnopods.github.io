@@ -72,18 +72,6 @@ My CV here: [📄](https://onlyairnopods.github.io/assets/files/Zhengzhao_CV_en.
 
 ---
 
-<!-- <div id="footer">
-	<div id="footer-text"></div>
-        <p><center>
-      	<div id="clustrmaps-widget" style="width:10%">
-	<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=60OmiZhW52X7xzqzAnKvNp60jEZMhpAjh0g0XWe6yFA"></script>
-        
-	<p><center><font face="Arial">
-        <br>
-            Last updated: Sept. 2024.
-        </font></center></p>
-</div> -->
-
 <div id="footer">
   <div id="footer-text"></div>
   <center>
