@@ -19,7 +19,7 @@ redirect_from:
 
 # About Me
 
-Hi there👋, I'm a forth year undergraduate student at Northeastern University, China. My research interests include AI4Science (especially AI4Chemistry), Multimodal-LLMs, and Computer Vision. I am fortunate to be advised by Prof. Benyou Wang, and deeply appreciative of my mentor, Prof. Dayan Guan, who guided me into scientific research. Previously, I had a wonderful experience working with Prof. Miao Fang at NEU.
+Hi there👋, I'm a forth year undergraduate student at Northeastern University, China. My research interests include AI4Science (especially AI4Chemistry), Multimodal-LLMs, and Computer Vision. I am fortunate to be advised by Prof. Benyou Wang, and deeply appreciative of my former mentor, Prof. Dayan Guan, who guided me into scientific research. Previously, I had a wonderful experience working with Prof. Miao Fang at NEU.
 
 My CV here: [📄](https://onlyairnopods.github.io/assets/files/Zhengzhao_CV_en.pdf).
 
@@ -94,8 +94,3 @@ My CV here: [📄](https://onlyairnopods.github.io/assets/files/Zhengzhao_CV_en.
     <br>
   </center>
 </div>
-
-<p style="text-align: center; font-family: Arial;">
-    <br>
-    Last updated: Sept. 2024.
-</p>
