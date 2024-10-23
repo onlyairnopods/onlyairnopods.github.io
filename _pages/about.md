@@ -17,9 +17,11 @@ redirect_from:
 
 <span class='anchor' id='about-me'></span>
 
+# About Me
+
 Hi there👋, I'm a forth year undergraduate student at Northeastern University, China. My research interests include AI4Science (especially AI4Chemistry), Multimodal-LLMs, and Computer Vision. I am fortunate to be advised by Prof. Benyou Wang, and deeply appreciative of my mentor, Prof. Dayan Guan, who guided me into scientific research. Previously, I had a wonderful experience working with Prof. Miao Fang at NEU.
 
-My CV here: [📄](https://github.com/onlyairnopods/onlyairnopods.github.io/blob/main/assets/files/Zhengzhao_CV_en.pdf).
+My CV here: [📄](https://onlyairnopods.github.io/assets/files/Zhengzhao_CV_en.pdf).
 
 <!-- My research interest includes neural machine translation and computer vision. I have published more than 100 papers at the top international AI conferences with total <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'>google scholar citations <strong><span id='total_cit'>260000+</span></strong></a> (You can also use google scholar badge <a href='https://scholar.google.com/citations?user=DhtAFkwAAAAJ'><img src="https://img.shields.io/endpoint?url={{ url | url_encode }}&logo=Google%20Scholar&labelColor=f6f6f6&color=9cf&style=flat&label=citations"></a>). -->
 
@@ -54,7 +56,7 @@ My CV here: [📄](https://github.com/onlyairnopods/onlyairnopods.github.io/blob
 - *2023.12* 🥈 National Second Prize — 5th National Campus AI Algorithm Elite Competition.
 - *2023.08* 🥉 National Third Prize — 22nd National RoboMaster Competition.
 
-# 📖 Educations
+# 🎓 Educations
 <!-- - *2019.06 - 2022.04 (now)*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. 
 - *2015.09 - 2019.06*, Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet.  -->
 - *2024.08 - Present*, Visiting Student, The Chinese University of Hong Kong, Shenzhen, China.
@@ -67,3 +69,7 @@ My CV here: [📄](https://github.com/onlyairnopods/onlyairnopods.github.io/blob
 # 💻 Internships
 <!-- - *2019.05 - 2020.02*, [Lorem](https://github.com/), China. -->
 - *2024.01 - 2024.02*, [Shenyang YaTrans](https://niutrans.com/), China.
+
+---
+
+<script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=60OmiZhW52X7xzqzAnKvNp60jEZMhpAjh0g0XWe6yFA"></script>
