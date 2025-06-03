@@ -6,7 +6,7 @@
 # `jekyll serve`. If you change this file, please restart the server process.
 
 # Site Settings
-title                    : "Zhengzhao Lai (赖正钊)"
+title                    : "Zhengzhao Lai"
 description              : ""
 repository               : "onlyairnopods/onlyairnopods.github.io"
 google_scholar_stats_use_cdn : false
@@ -23,7 +23,7 @@ baidu_site_verification  :  # get baidu_site_verification from https://ziyuan.ba
 author:
   name             : "Zhengzhao Lai"
   avatar           : "images/profile.jpg"
-  bio              : "Northeastern University"
+  bio              : "Wide-eyed Explorer"
   location         : "China"
   employer         :
   pubmed           : 
@@ -58,6 +58,11 @@ author:
   youtube          :
   wikipedia        :
 
+# Collections
+collections:
+  portfolio:
+    output: true
+    permalink: /:collection/:path/
 
 # Reading Files
 include:
@@ -123,6 +128,13 @@ defaults:
   - scope:
       path: ""
       type: pages
+    values:
+      layout: default
+      author_profile: true
+  # _portfolio
+  - scope:
+      path: ""
+      type: portfolio
     values:
       layout: default
       author_profile: true

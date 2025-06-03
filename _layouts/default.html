@@ -1,11 +1,12 @@
----
-layout: compress
----
-
 <!doctype html>
 <html lang="en" class="no-js">
   <head>
     {% include head.html %}
+
+    {% if page.url contains '/portfolio' %}
+    <link rel="stylesheet" href="{{ '/assets/css/portfolio.css' | absolute_url }}">
+    {% endif %}
+    
     {% include head/custom.html %}
   </head>
 
@@ -20,12 +21,53 @@ layout: compress
       <article class="page" itemscope itemtype="http://schema.org/CreativeWork">
         {% if page.title %}<meta itemprop="headline" content="{{ page.title | markdownify | strip_html | strip_newlines | escape_once }}">{% endif %}
         <div class="page__inner-wrap">
+          {% if page.images %}
+          <div class="portfolio-detail-images">
+            {% for img in page.images %}
+              <a href="{{ img | relative_url }}"><img src="{{ img | relative_url }}" alt="{{ page.title }} image {{ forloop.index }}" class="portfolio-detail-image"></a>
+            {% endfor %}
+          </div>
+          {% endif %}
           <section class="page__content" itemprop="text">
             {{ content }}
           </section>
         </div>
       </article>
     </div>
+
+    <!-- <style>
+    .portfolio-detail-images {
+      display: flex;
+      gap: 1.5em;
+      margin-bottom: 2em;
+      flex-wrap: wrap;
+    }
+    .portfolio-detail-image {
+      width: 320px;
+      height: 192px;
+      object-fit: cover;
+      border-radius: 8px;
+      box-shadow: 0 2px 8px rgba(0,0,0,0.08);
+      transition: transform 0.3s, box-shadow 0.3s;
+      margin-bottom: 1em;
+    }
+    .portfolio-detail-image:hover {
+      transform: scale(1.05) translateY(-4px);
+      box-shadow: 0 8px 24px rgba(52,152,219,0.18);
+      z-index: 2;
+    }
+    @media (max-width: 900px) {
+      .portfolio-detail-image {
+        width: 100%;
+        height: auto;
+        max-width: 100%;
+      }
+      .portfolio-detail-images {
+        flex-direction: column;
+        gap: 1em;
+      }
+    }
+    </style> -->
 
     {% include scripts.html %}
 

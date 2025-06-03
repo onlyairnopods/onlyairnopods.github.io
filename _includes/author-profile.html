@@ -5,7 +5,7 @@
 <div itemscope itemtype="http://schema.org/Person" class="profile_box">
 
   <div class="author__avatar">
-    <img src="{{ author.avatar }}" class="author__avatar" alt="{{ author.name }}">
+    <img src="{{ author.avatar | absolute_url }}" class="author__avatar" alt="{{ author.name }}">
   </div>
 
   <div class="author__content">
@@ -214,5 +214,16 @@
         <a href="https://en.wikipedia.org/wiki/User:{{ author.wikipedia }}"><i class="fab fa-fw fa-wikipedia-w" aria-hidden="true"></i></a>
       {% endif %}
     </div>
+
+    <div style="width: 150px; height: 150px; overflow: hidden;">
+      <script type="text/javascript" id="clstr_globe" src="//clustrmaps.com/globe.js?d=60OmiZhW52X7xzqzAnKvNp60jEZMhpAjh0g0XWe6yFA"></script>
+      <style>
+        #clstr_globe {
+          transform: scale(0.7); /* 缩放比例为 70% */
+          transform-origin: 0 0; /* 保持缩放后的对齐 */
+        }
+      </style>
+    </div>
+
   </div>
 </div>

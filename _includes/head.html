@@ -11,9 +11,15 @@
 </script>
 
 <!-- For all browsers -->
-<link rel="stylesheet" href="assets/css/main.css">
+<link rel="stylesheet" href="{{ '/assets/css/main.css' | absolute_url }}">
+<!-- FontAwesome CDN fallback -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" crossorigin="anonymous">
 
 <meta http-equiv="cleartype" content="on">
 <head>
   <base target="_blank">
 </head>
+
+{% if page.extra_css %}
+  <link rel="stylesheet" href="{{ page.extra_css | absolute_url }}">
+{% endif %}
