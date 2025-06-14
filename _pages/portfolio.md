@@ -1,6 +1,6 @@
 # 🎨 Portfolio
 
-Something novel and cool, which make up a part of me 😊
+Something novel and cool, which makes up a part of me 😊
 
 <div class="portfolio-grid">
   {% for post in site.portfolio %}
