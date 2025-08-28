@@ -1,6 +1,6 @@
 # About Me
 
-Hi there👋, I'm a forth year undergraduate student at Northeastern University, China. I am fortunate to collaborate closely with Prof. Benyou Wang. I also deeply appreciative of my former mentor, Prof. Dayan Guan, who guided me into scientific research. Previously, I had a wonderful experience working with Prof. Miao Fang.
+Hi there👋, I am currently a master student at The Chinese University of Hong Kong, Shenzhen. I am fortunate to be supervised by Prof. Benyou Wang. I am also profoundly grateful to my former mentor, Prof. Dayan Guan, who guided me into research journey.
 
 My research interests include Science for next-gen AI (architectures, algorithms), AI4Science (especially AI4Chemistry and AI4Materials), Multimodal-LLMs. I am also interested in building robots/agents for automated scientific exploration.
 
