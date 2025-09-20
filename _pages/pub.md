@@ -1,20 +1,23 @@
-<!-- # 📝 Publications -->
+# 📝 Publications
 
-<!-- <div class='paper-box'> -->
-  <!-- <div class='paper-box-image'>
+<div class='paper-box'>
+  <div class='paper-box-image'>
     <div>
-      <div class="badge">CVPR 2016</div>
-      <img src='images/500x300.png' alt="sym" width="100%">
+      <!-- <div class="badge">EMNLP 2025</div> -->
+      <img src='images/publications/matcha.png' alt="sym" width="100%">
     </div>
-  </div> -->
-  <!-- <div class='paper-box-text' markdown="1"> -->
+  </div>
+  <div class='paper-box-text' markdown="1">
 
-  <!-- [Deep Residual Learning for Image Recognition](https://openaccess.thecvf.com/content_cvpr_2016/papers/He_Deep_Residual_Learning_CVPR_2016_paper.pdf) -->
+  [Can Multimodal LLMs See Materials Clearly? A Multimodal Benchmark on Materials Characterization](https://arxiv.org/abs/2509.09307) \| ![Static Badge](https://img.shields.io/badge/EMNLP_2025_Findings-red)
 
-  <!-- <u>Zhengzhao Lai</u>, Xiangyu Zhang, Shaoqing Ren, Jian Sun \| ![Static Badge](https://img.shields.io/badge/Under_Review-green) -->
-
+  **Zhengzhao Lai**, Youbin Zheng, Zhenyang Cai, Haonan Lyu, Jingpu Yang, Hongqing Liang, Yan Hu, Benyou Wang
+  
+  <!-- ![Static Badge](https://img.shields.io/badge/Under_Review-green) -->
   <!-- [**Project**](https://scholar.google.com/citations?view_op=view_citation&hl=zh-CN&user=DhtAFkwAAAAJ&citation_for_view=DhtAFkwAAAAJ:ALROH1vI_8AC) <strong><span class='show_paper_citations' data='DhtAFkwAAAAJ:ALROH1vI_8AC'></span></strong> -->
   <!-- - Lorem ipsum dolor sit amet, consectetur adipiscing elit. Vivamus ornare aliquet ipsum, ac tempus justo dapibus sit amet. -->
 
-  <!-- </div> -->
-<!-- </div> -->
+  *"MatCha is the first benchmark for materials characterization image understanding featuring the evaluation of multimodal large language models in real-world scientific scenarios."*
+
+  </div>
+</div>
